@@ -58,7 +58,7 @@ public:
     // Throw std::invalid_argument if value < -273.15
     void setCelsius(double celsius) {
         // TODO: Implement
-        if(celsius_ < -273.15){
+        if(celsius < -273.15){
         throw invalid_argument("Derece absolute zero altında olamaz!");
     }
     celsius_ = celsius;
